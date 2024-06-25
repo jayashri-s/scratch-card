@@ -1,52 +1,24 @@
-# Prerequisites
-*.d
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Node dependencies
+node_modules
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Logs
+logs
+*.log
 
-# Precompiled Headers
-*.gch
-*.pch
+# Misc
+.DS_Store
+.fleet
+.idea
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Local env files
+.env
+.env.*
+!.env.example
